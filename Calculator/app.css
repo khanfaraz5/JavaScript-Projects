@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.calculator{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+#display{
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 35px;
+    padding: 10px;
+    text-align: right;;
+
+}
+.button_box {
+    margin-top: 20px; /* Add space between display and buttons */
+}
+
+#buttons {
+    border-collapse: collapse;
+}
+
+#buttons td {
+    padding: 5px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: limegreen;
+}
+
+
